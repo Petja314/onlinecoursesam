@@ -1,0 +1,4 @@
+import Reveal from "./Reveal";
+export default function WhySection() {
+  return <section className="why" id="why"><Reveal className="wrap why-grid"><div><span className="caps blue">Why this keeps happening</span><h2 className="display">What if the problem isn&apos;t your gel?</h2></div><div className="why-copy"><p>You can buy the most expensive products, but if you don&apos;t understand how they work, changing brands won&apos;t necessarily solve the problem.</p><p>Every client&apos;s nails are different. What works for one person might not work for another.</p><p>The base you choose, how you prepare the nail and how you apply your gel all make a difference.</p><p>It&apos;s not just about having good products. It&apos;s about understanding how to use them.</p><div className="statement">A new product won&apos;t always fix a problem you don&apos;t understand.</div></div></Reveal></section>;
+}

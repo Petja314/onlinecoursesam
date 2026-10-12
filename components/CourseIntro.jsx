@@ -1,0 +1,4 @@
+import Reveal from "./Reveal";
+export default function CourseIntro() {
+  return <section className="solution" id="course"><Reveal className="wrap solution-inner"><span className="caps blue">Introducing the online course</span><h2 className="display">Hard Gel:<br />Thin &amp; Strong Nails</h2><h3>Stop guessing. Start understanding.</h3><p>This course is designed to help you understand your materials, choose suitable products for different nail types and create thin, strong hard gel nails with confidence.</p><p>You&apos;ll learn why each step matters, from preparing the natural nail and choosing the right base to building a balanced structure. Because great results don&apos;t come from simply copying a technique. They come from understanding it.</p><a className="btn" href="#programme">EXPLORE THE COURSE <span className="arrow">↓</span></a></Reveal></section>;
+}
